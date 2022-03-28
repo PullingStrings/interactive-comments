@@ -1,5 +1,7 @@
 import Head from 'next/head'
-import Container from '../components/Container'
+import Container from '../components/Container/Container'
+import Upvote from '../components/Votes/Upvote'
+import '@fontsource/roboto';
 
 export default function Index() {
   return (
@@ -11,6 +13,7 @@ export default function Index() {
       </Head>
       <Container>
         <h1>Hello world</h1>
+        <Upvote />
       </Container>
    </>
   )
